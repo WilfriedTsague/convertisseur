@@ -36,14 +36,6 @@ public partial class Convertisseur : ContentPage
         }
     }
 
-    private void OnEffacerClicked(object sender, EventArgs e)
-    {
-        VDLabel.Text = string.Empty; 
-        VD.Text = string.Empty;
-        VC.Text = string.Empty;
-        VCLabel.Text = string.Empty; 
-    }
-
     private async void OnConversionClicked(object sender, EventArgs e)
     {
         var button = sender as Button;
@@ -129,7 +121,12 @@ public partial class Convertisseur : ContentPage
 
         VC.Text = resultText ;
     }
-
-
+    private void OnEffacerClicked(object sender, EventArgs e)
+    {
+        VDLabel.Text = string.Empty;
+        VD.Text = string.Empty;
+        VC.Text = string.Empty;
+        VCLabel.Text = string.Empty;
+    }
 
 }
