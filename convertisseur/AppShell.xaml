@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="convertisseur.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:convertisseur"
+    xmlns:pages="clr-namespace:convertisseur.Pages"
+    Title="convertisseur">
+
+
+    <FlyoutItem Title="Convertisseur" Icon="convert.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Convertisseur}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Aide" Icon="convert.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Aide}" />
+    </FlyoutItem>
+    <FlyoutItem Title="À propos" Icon="convert.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Apropos}" />
+    </FlyoutItem>
+
+</Shell>

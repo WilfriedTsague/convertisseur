@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="convertisseur.Pages.Aide"
+             Title="Aide">
+
+    <StackLayout Padding="20">
+        <Label Text="Convertisseur Pro." Style="{StaticResource TitleStyle}" Margin="10" />
+        <Label Text="Cette application dévéloppé par TSAGUE WILFRIED, vous permet de convertir de unités de distance et de masse." Margin="0,0,0,15" />
+        
+        <StackLayout >
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- CM À POUCE : " FontAttributes="Bold" />
+                        <Span Text="Convertir de centimètre à pouce. 1 cm = 0.393701`" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- POUCE À CM : " FontAttributes="Bold" />
+                        <Span Text="Convertir de pouce à centimètre. 1`` = 2.54 cm" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- M À PIED : " FontAttributes="Bold" />
+                        <Span Text="Convertir de mètre à pied. 1 m = 3.2808 ft" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- PIED À M : " FontAttributes="Bold" />
+                        <Span Text="Convertir de pied à mètre. 1 ft = 0.3048 m" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- G À ONCE : " FontAttributes="Bold" />
+                        <Span Text="Convertir de gramme à once. 1 g = 0.035274 oz" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- ONCE À G : " FontAttributes="Bold" />
+                        <Span Text="Convertir de once à gramme. 1 oz = 28.3495 g" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- KG À LBS : " FontAttributes="Bold" />
+                        <Span Text="Convertir de kilogramme à livre. 1 kg = 2.20462 lbs" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- LBS À KG : " FontAttributes="Bold" />
+                        <Span Text="Convertir de livre à kilogramme. 1 lbs = 0.453592 kg" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

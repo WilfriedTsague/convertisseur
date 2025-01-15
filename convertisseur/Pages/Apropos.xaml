@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="convertisseur.Pages.Apropos"
+             Title="Apropos">
+    
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Convertisseur d’unités" Style="{StaticResource TitleStyle}" />
+        <Label Text="Développée par : Maapi Wilfried Tsague Temgoua" Style="{StaticResource SubtitleStyle}" />
+        <Label Text="Version de l’application : 1.0.0" Style="{StaticResource SubtitleStyle}" />
+    </StackLayout>
+    
+</ContentPage>
